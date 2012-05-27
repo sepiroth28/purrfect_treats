@@ -1,0 +1,223 @@
+[Root]
+Most Recent Package=Standard Setup Package 2
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Users\sepiroth\Desktop\nutrimart
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\Windows\System32\MSCAL.OCX=
+C:\Windows\System32\MSCOMCTL.OCX=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+c:\windows\system32\mscal.ocx=
+c:\windows\system32\mscomctl.ocx=
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\Users\sepiroth\github\nutrimart-calape\STG_Milling\STG Milling.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado21.tlb=Yes
+C:\Windows\System32\MSCOMCTL.OCX=No
+C:\Windows\System32\MSDBRPTR.DLL=Yes
+C:\Windows\System32\msstdfmt.dll=Yes
+C:\Windows\System32\MSCAL.OCX=No
+C:\Windows\System32\TABCTL32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Users\sepiroth\github\nutrimart-calape\STG_Milling\STG Milling.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ado\msado21.tlb=$(WinSysPath)
+C:\Windows\System32\MSDBRPTR.DLL=$(WinSysPath)
+C:\Windows\System32\msstdfmt.dll=$(WinSysPath)
+C:\Windows\System32\TABCTL32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Users\sepiroth\github\nutrimart-calape\STG_Milling\STG Milling.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Project1
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Project1
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Project1]
+Icon1="STG Milling.exe"
+Title1=Project1
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\Users\sepiroth\Desktop\nutrimart
+ProjectFolder=C:\Users\sepiroth\github\nutrimart-calape\STG_Milling
+ServerSideCab=
+File1=C:\Users\sepiroth\Desktop\nutrimart\setup.exe
+File2=C:\Users\sepiroth\Desktop\nutrimart\Setup.Lst
+File3=C:\Users\sepiroth\Desktop\nutrimart\STG Milling.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standard Setup Package 2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Users\sepiroth\Desktop\nutrimart
+
+[Package|Standard Setup Package 2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 2|Files Found]
+
+[Package|Standard Setup Package 2|Files Released]
+
+[Package|Standard Setup Package 2|Missing Dependency Information]
+
+[Package|Standard Setup Package 2|Out-of-Date Dependency Information]
+C:\Windows\System32\MSCAL.OCX=
+C:\Windows\System32\MSCOMCTL.OCX=
+
+[Package|Standard Setup Package 2|Files Added]
+c:\users\sepiroth\github\nutrimart-calape\stg_milling\config\config.dat=
+d:\installers\mysql-connector-odbc-5.1.8-win32.msi=
+c:\users\sepiroth\downloads\mysql-essential-5.1.59-win32.msi=
+c:\users\sepiroth\downloads\mysql-gui-tools-5.0-r17-win32.msi=
+
+[Package|Standard Setup Package 2|Files Removed]
+c:\windows\system32\mscal.ocx=
+c:\windows\system32\mscomctl.ocx=
+c:\windows\system32\msdbrptr.dll=
+c:\windows\system32\msstdfmt.dll=
+c:\windows\system32\tabctl32.ocx=
+
+[Package|Standard Setup Package 2|Files In Project]
+C:\Users\sepiroth\github\nutrimart-calape\STG_Milling\STG Milling.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado21.tlb=Yes
+C:\Windows\System32\MSCOMCTL.OCX=No
+C:\Windows\System32\MSDBRPTR.DLL=No
+C:\Windows\System32\msstdfmt.dll=No
+C:\Windows\System32\MSCAL.OCX=No
+C:\Windows\System32\TABCTL32.OCX=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Users\sepiroth\github\nutrimart-calape\STG_Milling\config\config.dat=Yes
+D:\installers\mysql-connector-odbc-5.1.8-win32.msi=Yes
+C:\Users\sepiroth\Downloads\mysql-essential-5.1.59-win32.msi=Yes
+C:\Users\sepiroth\Downloads\mysql-gui-tools-5.0-r17-win32.msi=Yes
+
+[Package|Standard Setup Package 2|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 2|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 2|Install Locations]
+C:\Users\sepiroth\github\nutrimart-calape\STG_Milling\STG Milling.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ado\msado21.tlb=$(WinSysPath)
+C:\Windows\System32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Windows\System32\MSDBRPTR.DLL=$(WinSysPath)
+C:\Windows\System32\msstdfmt.dll=$(WinSysPath)
+C:\Windows\System32\MSCAL.OCX=$(WinSysPath)
+C:\Windows\System32\TABCTL32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Users\sepiroth\github\nutrimart-calape\STG_Milling\config\config.dat=$(AppPath)
+D:\installers\mysql-connector-odbc-5.1.8-win32.msi=$(AppPath)
+C:\Users\sepiroth\Downloads\mysql-essential-5.1.59-win32.msi=$(AppPath)
+C:\Users\sepiroth\Downloads\mysql-gui-tools-5.0-r17-win32.msi=$(AppPath)
+
+[Package|Standard Setup Package 2|Configure Shared Files]
+Applicable=Yes
+C:\Users\sepiroth\github\nutrimart-calape\STG_Milling\STG Milling.exe=Yes
+C:\Users\sepiroth\github\nutrimart-calape\STG_Milling\config\config.dat=Yes
+D:\installers\mysql-connector-odbc-5.1.8-win32.msi=No
+C:\Users\sepiroth\Downloads\mysql-essential-5.1.59-win32.msi=No
+C:\Users\sepiroth\Downloads\mysql-gui-tools-5.0-r17-win32.msi=No
+
+[Package|Standard Setup Package 2|Distribution]
+Type=single
+Size=
+Title=NUTRIMART SIS SYSTEM
+
+[Package|Standard Setup Package 2|Package]
+PackageFolder=C:\Users\sepiroth\Desktop\nutrimart
+ProjectFolder=C:\Users\sepiroth\github\nutrimart-calape\STG_Milling
+ServerSideCab=
+File1=C:\Users\sepiroth\Desktop\nutrimart\setup.exe
+File2=C:\Users\sepiroth\Desktop\nutrimart\Setup.Lst
+File3=C:\Users\sepiroth\Desktop\nutrimart\STG Milling.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package 2|IconGroups]
+Group0=Nutrimart SIS System
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 2|Nutrimart SIS System]
+Icon1="STG Milling.exe"
+Title1=Nutrimart SIS System
+StartIn1=$(AppPath)
+Key1=Icon1

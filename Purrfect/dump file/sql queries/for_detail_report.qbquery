@@ -1,0 +1,25 @@
+﻿SELECT
+sot_sot.sales_order_no,
+c.customers_name as `sold_to`,
+a.name as `agent`,
+i.item_code,
+so.qty_out,
+IF(c.dealers_type = "dealer",i.dealers_price,i.item_price) as `price`,
+so.amount,
+so.discount,
+so.tracking_price,
+(so.amount-IF(so.discount IS NULL,0,so.discount))+IF(so.tracking_price IS NULL,0,so.tracking_price) as `net_total`,
+sot.`delivery_date` as `date`
+
+FROM `stock_out_transaction_stock_out_items` sot_sot
+LEFT JOIN stock_out_transaction sot
+ON sot_sot.sales_order_no = sot.sales_order_no
+LEFT JOIN customers c
+ON c.customers_id = sot.responsible_customer
+LEFT JOIN agent a
+ON a.agent_id = sot.responsible_agent
+LEFT JOIN stock_out so
+ON sot_sot.stockout_id = so.stockout_id
+LEFT JOIN items i
+ON so.item_id = i.item_id
+WHERE DATE_FORMAT(sot.`delivery_date`,'%Y-%m-%d') = CURDATE()

@@ -1,0 +1,16 @@
+﻿SELECT
+cod.`sales_order_no`,
+IF(c.`customers_name` IS NOT NULL,c.`customers_name`,'Walk-in customer') as customer_name,
+a.`Name`,
+sot.`discount`,
+sot.`grand_total`,
+sot.`net_total`,
+sot.`tendered_amount`,
+sot.`change`,
+sot.`delivery_date`
+FROM `cod` cod
+LEFT JOIN `stock_out_transaction` sot ON sot.sales_order_no = cod.sales_order_no
+LEFT JOIN customers c ON sot.responsible_customer = c.customers_id
+LEFT JOIN agent_customers ac ON ac.customers_id = c.customers_id
+LEFT JOIN agent a ON ac.agent_id = a.agent_id
+ORDER BY cod.`date` ASC;
